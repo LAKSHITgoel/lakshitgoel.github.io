@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>WiKipedia viewer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.1.1/typeahead.bundle.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        <h1 class="text-center">Wikipedia Viewer</h1>
+        <div class="random text-center">
+            <a href="https://en.wikipedia.org/wiki/Special:Random" class="text-primary" target="_blank" id="random"><p>Click here to read a Random Article</p></a>
+            <br>
+            <p style="color:floralwhite">OR</p>
+        </div>
+            <div class="input-group row" style="width:100%;">
+              <span class="input-group col-md-offset-4 col-md-4 col-xs-offset-2 col-xs-8">
+              <input type="text" class="form-control" placeholder="Search..." name="search" id="srch_bar" required>
+              <div class="input-group-btn">
+                <button class="btn btn-default" style="background-color:rgb(230,230,230);" type="search" id="srch_btn"><i style="padding:3px 0 3px 0;"class="glyphicon glyphicon-search"></i></button>
+              </div>
+              </span>
+            </div>
+
+            <div class="rom message">
+
+            </div>
+    </div>
+    <script src="function.js"></script>
+    </body>
+</html>

@@ -10,4 +10,10 @@
         "image":"weatherapp/weather_app.jpg",
         "source":"weatherapp/index.html"        
     }
+    ,
+    {
+        "name":"Wikipedia Viewer",
+        "image":"wikipediaviewer/wikipedia_viewer.png",
+        "source":"wikipediaviewer/index.html"
+    }
 ]

@@ -1,0 +1,21 @@
+body{
+    background-color: #362B2B;
+    ba
+}
+h1{
+    margin-top:70px;
+    color: floralwhite;
+}
+#random{
+    font-size: 20px;
+    text-decoration: none;
+}
+#random:hover{text-decoration: none;cursor:pointer;}
+.random{
+    margin-top:30px;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
