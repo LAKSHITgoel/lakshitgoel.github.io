@@ -1,0 +1,106 @@
+body{
+	margin:0;
+    font-family: orbitron,sans-serif;
+	/*background-color:#5558589c;*/
+    background: linear-gradient(90deg, #f2ebe3, #bcb5ad);
+}
+
+#h1{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top:0;
+    margin-bottom: 0;
+}
+#allCalc{
+    letter-spacing: 1px;
+    font-size:20px;
+    color: grey;
+}
+#status{
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: #000;
+}
+#calculator{
+    /*background-color: ;*/
+    background:linear-gradient(90deg,#dfd8d0, #cacaca);
+    border-radius: 8px;
+    display: block;
+		width:23rem;
+    margin: 30px auto auto auto;
+    padding-bottom: 10px;
+    border-bottom : 2px solid #908b85;
+    border-right : 2px solid #908b85;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+#display{
+    height:6rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c3c2ab;
+    border: 2px solid #b4b39d;
+    border-radius: 6px;
+}
+.text-right{
+    text-align: right;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 65px;
+    justify-content: space-around;
+}
+button{
+    font-weight: bolder;
+    color : #f1f1f1;
+    border-radius: 12px;
+    margin:5px;
+    width: 100%;
+    border: 0 solid #3a3a3a;
+    background-color: #3a3a3a;
+    font-family: orbitron,sans-serif;
+    box-shadow: 0 3px 0 0 #222121, inset -1px -3px 10px 1px #515151;
+}
+button:active {
+    transform: translate(0px, 3px);
+    outline:none;
+    box-shadow: none;
+}
+button:hover{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+.bold{
+    font-size: 1.5rem;
+}
+.small{
+    font-size:1.2rem;
+}
+
+#equals{
+    width: 230%;
+}
+#CE{
+    background-color: #67df8d;
+		width: 230%;
+}
+#DEL{
+    background-color: #e36757;
+}
+
+.main{
+    margin: 20px 10px 20px 10px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}

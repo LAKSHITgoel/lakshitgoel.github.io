@@ -16,4 +16,10 @@
         "image":"wikipediaviewer/wikipedia_viewer.png",
         "source":"wikipediaviewer/index.html"
     }
+    ,
+    {
+        "name":"JavaScript Calculator",
+        "image":"calculator/JavaScriptCalculator.png",
+        "source":"calculator/index.html"
+    }
 ]
