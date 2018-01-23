@@ -39,6 +39,7 @@ h1{
     font-size: 2rem;
 }
 #control{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.25);
     font-family: Roboto,sans-serif;
     letter-spacing: 2px;
     color:floralwhite;
@@ -70,39 +71,44 @@ button:active{
 button:focus{
     outline:none;
 }
-#start{
+.start{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
   background-color: rgba(255,255,255,0.1);
   margin: 30px;
   color: floralwhite;
   width: 100px;
   height: 38px;
 }
-#start:active{
+.start:active{
   box-shadow: 0 0 15px rgba(0,0,0,0.25);
   transform: translateY(1px);
 }
-#pause{
+.pause{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
   background-color: rgba(255,255,255,0.1);
   margin: 30px;
   color: floralwhite;
   width: 100px;
   height: 38px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
 }
-#pause:active{
+.pause:active{
   box-shadow: 0 0 15px rgba(0,0,0,0.25);
   transform: translateY(1px);
 }
-#reset{
+.reset{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
     background-color: rgba(255,255,255,0.1);
     margin: 30px;
     color: floralwhite;
     width: 100px;
     height: 38px;
 }
-#reset:active{
+.reset:active{
   box-shadow: 0 0 15px rgba(0,0,0,0.25);
   transform: translateY(1px);
 }
 .disabled{
+  transform: translateY(0px);
   cursor: not-allowed;
 }
