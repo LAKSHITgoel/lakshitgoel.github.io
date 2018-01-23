@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9378c865-b212-4207-af87-e4ba4ea7676a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/lakshitgoel.github.io.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pomodoro/activity.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pomodoro/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pomodoro/jquery-3.2.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pomodoro/pomodoroClock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pomodoro/style.css" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/data.json" afterPath="$PROJECT_DIR$/data.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/quotemachine/function.js" afterPath="$PROJECT_DIR$/quotemachine/function.js" />
-      <change beforePath="$PROJECT_DIR$/quotemachine/index.html" afterPath="$PROJECT_DIR$/quotemachine/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,12 +39,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pomodoro/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quotemachine/function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!block;n#quote#0" expanded="false" />
+                <element signature="e#48#246#0" expanded="false" />
+                <element signature="e#359#624#0" expanded="false" />
+                <element signature="e#741#1416#0" expanded="false" />
+                <element signature="e#779#989#0" expanded="false" />
+                <element signature="e#1111#1400#0" expanded="false" />
+                <marker date="1516694688045" expanded="true" signature="583:590" ph="−" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,9 +90,9 @@
         <option value="$PROJECT_DIR$/pomodoro/style.css" />
         <option value="$PROJECT_DIR$/bs-config.json" />
         <option value="$PROJECT_DIR$/pomodoro/index.html" />
-        <option value="$PROJECT_DIR$/quotemachine/function.js" />
         <option value="$PROJECT_DIR$/quotemachine/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/quotemachine/function.js" />
       </list>
     </option>
   </component>
@@ -137,6 +141,16 @@
             <path>
               <item name="lakshitgoel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lakshitgoel.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lakshitgoel.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lakshitgoel.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="pomodoro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lakshitgoel.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lakshitgoel.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="quotemachine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,12 +208,12 @@
       <updated>1516534679071</updated>
       <workItem from="1516534680747" duration="10197000" />
       <workItem from="1516557166083" duration="3873000" />
-      <workItem from="1516693215176" duration="789000" />
+      <workItem from="1516693215176" duration="1477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14859000" />
+    <option name="totallyTimeSpent" value="15547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -354,14 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pomodoro/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pomodoro/activity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -378,23 +384,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quotemachine/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!block;n#quote#0" expanded="false" />
-            <element signature="e#48#246#0" expanded="false" />
-            <element signature="e#359#624#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotemachine/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!block;n#quote#0" expanded="false" />
+            <element signature="e#48#246#0" expanded="false" />
+            <element signature="e#359#624#0" expanded="false" />
+            <element signature="e#741#1416#0" expanded="false" />
+            <element signature="e#779#989#0" expanded="false" />
+            <element signature="e#1111#1400#0" expanded="false" />
+            <marker date="1516694688045" expanded="true" signature="583:590" ph="−" />
+          </folding>
         </state>
       </provider>
     </entry>
