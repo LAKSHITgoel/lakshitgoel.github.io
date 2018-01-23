@@ -41,7 +41,6 @@ $(document).ready(function(){
            }
        });
    });
-=======
    $("#new_quote").on("click",function(){
     $.ajax({
         headers: {
@@ -62,7 +61,6 @@ $(document).ready(function(){
         }
     });
 });
->>>>>>> 709f6a2ee1d96c020542b25d33e8142f4138926e
    $("#tweet-quote").on("click",function(){
        $("#tweet-quote").attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=LAKSHITgoel&text=' + encodeURIComponent('"' + curQuote + '" ' +"-"+curAuthor));
    });
