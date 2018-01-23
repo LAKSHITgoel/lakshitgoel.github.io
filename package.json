@@ -1,13 +1,15 @@
 {
-  "name": "LAKSHITGOEL",
+  "name": "Portfolio",
   "version": "1.0.0",
-  "description": "This is a website for potfolio",
+  "description": "This is a website for Portfolio",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
+  "server": { "baseDir": "./src" },
+  "files": ["./src/**/*.{html,htm,css,js}"],
   "author": "",
   "license": "ISC",
   "devDependencies": {

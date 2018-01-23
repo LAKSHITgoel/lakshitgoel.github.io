@@ -22,4 +22,10 @@
         "image":"calculator/JavaScriptCalculator.png",
         "source":"calculator/index.html"
     }
+    ,
+    {
+        "name":"Pomodoro Clock",
+        "image":"pomodoro/pomodoroClock.png",
+        "source":"pomodoro/index.html"
+    }
 ]
