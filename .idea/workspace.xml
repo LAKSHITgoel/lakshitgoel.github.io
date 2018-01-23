@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9378c865-b212-4207-af87-e4ba4ea7676a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/quotemachine/function.js" afterPath="$PROJECT_DIR$/quotemachine/function.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,16 +53,14 @@
       <file leaf-file-name="function.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quotemachine/function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="149">
+              <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
               <folding>
                 <element signature="n#!!block;n#quote#0" expanded="false" />
                 <element signature="e#48#246#0" expanded="false" />
                 <element signature="e#359#624#0" expanded="false" />
-                <element signature="e#741#1416#0" expanded="false" />
-                <element signature="e#779#989#0" expanded="false" />
-                <element signature="e#1111#1400#0" expanded="false" />
-                <marker date="1516694688045" expanded="true" signature="583:590" ph="−" />
+                <marker date="1516695119138" expanded="true" signature="1356:1363" ph="−" />
+                <marker date="1516695119138" expanded="true" signature="2034:2041" ph="−" />
               </folding>
             </state>
           </provider>
@@ -208,12 +207,12 @@
       <updated>1516534679071</updated>
       <workItem from="1516534680747" duration="10197000" />
       <workItem from="1516557166083" duration="3873000" />
-      <workItem from="1516693215176" duration="1477000" />
+      <workItem from="1516693215176" duration="1903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15547000" />
+    <option name="totallyTimeSpent" value="15973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -402,16 +401,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quotemachine/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="149">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
           <folding>
             <element signature="n#!!block;n#quote#0" expanded="false" />
             <element signature="e#48#246#0" expanded="false" />
             <element signature="e#359#624#0" expanded="false" />
-            <element signature="e#741#1416#0" expanded="false" />
-            <element signature="e#779#989#0" expanded="false" />
-            <element signature="e#1111#1400#0" expanded="false" />
-            <marker date="1516694688045" expanded="true" signature="583:590" ph="−" />
+            <marker date="1516695119138" expanded="true" signature="1356:1363" ph="−" />
+            <marker date="1516695119138" expanded="true" signature="2034:2041" ph="−" />
           </folding>
         </state>
       </provider>
