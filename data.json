@@ -28,4 +28,10 @@
         "image":"pomodoro/pomodoroClock.png",
         "source":"pomodoro/index.html"
     }
+    ,
+    {
+        "name":"Tic Tac Toe game",
+        "image":"TicTakToe/TicTakToe.png",
+        "source":"TicTacToe/index.html"
+    }
 ]

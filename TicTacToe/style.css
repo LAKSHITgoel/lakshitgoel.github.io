@@ -1,0 +1,78 @@
+@media only screen and (max-width :540px) {
+    .game{
+        margin-top:100px;
+        width:70%;
+    }
+}
+body{
+    font-family: Roboto,sans-serif;
+    background: radial-gradient(#19352a,#e9eeec)
+}
+p.h1{
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-size:3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.game{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#34664e;
+    width:420px;
+    height: 320px;
+    border : 35px solid #f0b487;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.68),inset 0px 0px 200px 50px #1d372d;
+}
+div.play{
+    display:none;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    margin-top:4%;
+    margin-left:5%;
+}
+div.row{
+    display:flex;
+    flex-direction: row;
+    height: 120px;   
+}
+div.buttons{
+    width:100%;
+    font-family: "Indie Flower";
+    color: rgba(255, 250, 240, 0.712);
+    text-align: center;
+    font-size:5rem;
+}
+button{
+    margin-left: 35px;
+    font-family: "Indie Flower";
+    color: rgba(255, 250, 240, 0.712);
+    font-size:50px;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+}
+button:hover{
+    border:2px dashed floralwhite;
+    border-radius: 20px;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    outline:none;
+}
+.choice{
+    display:flex;
+    flex-direction: column;
+}
+p.choiceInfo{
+    font-family: "Indie Flower";
+    color: rgba(255, 250, 240, 0.712);
+    text-align: center;
+    font-size:2.5rem;
+}
