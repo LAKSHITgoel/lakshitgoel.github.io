@@ -32,6 +32,6 @@
     {
         "name":"Tic Tac Toe game",
         "image":"TicTakToe/TicTakToe.png",
-        "source":"TicTacToe/index.html"
+        "source":"TicTakToe/index.html"
     }
 ]
