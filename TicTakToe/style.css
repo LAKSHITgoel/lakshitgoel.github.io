@@ -1,7 +1,10 @@
 @media only screen and (max-width :540px) {
     .game{
-        margin-top:100px;
-        width:70%;
+        margin-top:auto;
+        margin-left:auto;
+        margin-right: auto;
+        width:320px;
+        height: 220px;
     }
 }
 body{
@@ -36,7 +39,7 @@ div.play{
 div.row{
     display:flex;
     flex-direction: row;
-    height: 120px;   
+    height: 120px;
 }
 div.buttons{
     width:100%;
@@ -45,7 +48,7 @@ div.buttons{
     text-align: center;
     font-size:5rem;
 }
-button{
+#x{
     margin-left: 35px;
     font-family: "Indie Flower";
     color: rgba(255, 250, 240, 0.712);
@@ -56,23 +59,136 @@ button{
     height: 60px;
     background-color: rgba(0, 0, 0, 0);
 }
-button:hover{
+#replay{
+  margin-left: 34%;
+  margin-top: 20px;
+  font-family: "Indie Flower","Roboto";
+  color: rgba(255, 250, 240, 0.712);
+  font-size:1.5rem;
+  border: none;
+  border-radius: 20px;
+  width: 35%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0);
+}
+#replay:hover{
     border:2px dashed floralwhite;
     border-radius: 20px;
 }
-button:focus{
+#replay:focus{
     outline: none;
 }
-button:active{
+#replay:active{
+    outline:none;
+}
+#o{
+    margin-left: 35px;
+    font-family: "Indie Flower","Roboto";
+    color: rgba(255, 250, 240, 0.712);
+    font-size:50px;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#x:hover{
+    border:2px dashed floralwhite;
+    border-radius: 20px;
+}
+#o:hover{
+    border:2px dashed floralwhite;
+    border-radius: 20px;
+}
+#x:focus{
+    outline: none;
+}
+#x:active{
+    outline:none;
+}
+
+#o:focus{
+    outline: none;
+}
+#o:active{
     outline:none;
 }
 .choice{
     display:flex;
     flex-direction: column;
+    margin-top:4%;
+    margin-left:5%;
 }
 p.choiceInfo{
-    font-family: "Indie Flower";
+    font-family: "Indie Flower","Roboto";
     color: rgba(255, 250, 240, 0.712);
     text-align: center;
     font-size:2.5rem;
+}
+div.draw{
+    margin-top:0;
+    margin-left:0;
+    display: none;
+    flex-direction: column;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+p#draw{
+  font-size: 2rem;
+  color: floralwhite;
+  text-align: center;
+  font-weight: 300;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+p#loose{
+  font-size: 2rem;
+  color: floralwhite;
+  text-align: center;
+  font-weight: 300;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+p#win{
+  font-size: 2rem;
+  color: floralwhite;
+  text-align: center;
+  font-weight: 300;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+div.loose{
+    margin-top:0;
+    margin-left:0;
+    display: none;
+    flex-direction: column;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+div.win{
+    margin-top:0;
+    margin-left:0;
+    display: none;
+    flex-direction: column;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+.reset{
+    position: relative;
+    left: auto;
+    text-align: center;
+    font-family: "Indie Flower","Roboto";
+    font-size:1rem;
+    border: none;
+    outline: none;
+    background-color:#f31616af;
+    width:100px;
+    height: 40px;
+    border-radius: 2px;
+}
+.reset:hover {
+    border:none;
+    border-radius: 2px;
 }
