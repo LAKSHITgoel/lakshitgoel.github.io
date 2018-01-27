@@ -22,8 +22,8 @@ p.h1{
     margin-left: auto;
     margin-right: auto;
     background-color:#34664e;
-    width:420px;
-    height: 320px;
+    width:380px;
+    height: 280px;
     border : 35px solid #f0b487;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.68),inset 0px 0px 200px 50px #1d372d;
@@ -81,6 +81,51 @@ div.buttons{
 #replay:active{
     outline:none;
 }
+#replay{
+  margin-left: 10%;
+  margin-top: 20px;
+  font-family: "Indie Flower","Roboto";
+  color: rgba(255, 250, 240, 0.712);
+  font-size:1.5rem;
+  border: none;
+  border-radius: 20px;
+  width: 35%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0);
+}
+#replay:hover{
+    border:2px dashed floralwhite;
+    border-radius: 20px;
+}
+#replay:focus{
+    outline: none;
+}
+#replay:active{
+    outline:none;
+}
+#reset{
+  margin-left: 10%;
+  margin-top: 20px;
+  font-family: "Indie Flower","Roboto";
+  color: rgba(255, 250, 240, 0.712);
+  font-size:1.5rem;
+  border: none;
+  border-radius: 20px;
+  width: 35%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0);
+}
+#reset:hover{
+    border:2px dashed floralwhite;
+    border-radius: 20px;
+}
+#reset:focus{
+    outline: none;
+}
+#reset:active{
+    outline:none;
+}
+
 #o{
     margin-left: 35px;
     font-family: "Indie Flower","Roboto";

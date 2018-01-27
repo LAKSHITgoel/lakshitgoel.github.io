@@ -12,7 +12,16 @@ const winCombos = [
   [2,4,6]
 ];
 const playingCells = $(".buttons");
-console.log(playingCells);
+//console.log(playingCells);
+//------------------------------------------------------------------------------
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
 //------------------------------------------------------------------------------
 function startGame(){
     $(".choice").css("display","none");
@@ -32,7 +41,10 @@ function clickEventHandler(event) {
     //console.log(event.target.id);
     if(typeof origBoard[event.target.id] == 'number'){
         fillCell(event.target.id , huPLayer);
-        if(!checkTie()) fillCell(bestSpot(),aiPlayer);
+        if(checkTie()) declareWinner("tie");
+        else {
+            fillCell(bestSpot(origBoard),aiPlayer);
+        }
     }
 }
 //------------------------------------------------------------------------------
@@ -40,7 +52,7 @@ function fillCell(cellid,player) {
     playingCells[cellid].innerText = player;
     origBoard[cellid] = player;
     var gameWon = checkWinner(origBoard,player);
-    console.log(gameWon);
+    //console.log(gameWon);
     if (gameWon) gameOver(gameWon);
 }
 //------------------------------------------------------------------------------
@@ -83,20 +95,20 @@ function declareWinner(who){
     }
 }
 //------------------------------------------------------------------------------
-function emptySpots(){
+function emptySpots(board){
   var arr = [];
-  for(var i=0;i<origBoard.length;i++){
-    if(typeof origBoard[i] == 'number') arr.push(i);
+  for(var i=0;i<board.length;i++){
+    if(typeof board[i] == 'number') arr.push(i);
   }
   return arr;
 }
 //------------------------------------------------------------------------------
-function bestSpot(){
-  return emptySpots()[0];
+function bestSpot(board){
+    return minmax(board,aiPlayer).index;
 }
 //------------------------------------------------------------------------------
 function checkTie() {
-  return emptySpots().length == 0 ? true : false;
+  return emptySpots(origBoard).length == 0 ? true : false;
 }
 //------------------------------------------------------------------------------
 function gameOver(winner){
@@ -105,13 +117,73 @@ function gameOver(winner){
   }
   declareWinner(winner.player==huPLayer?"win":"loose");
 }
-//------------------------------------------------------------------------------
+//-------------------------ai for tic tac toe-----------------------------------
+
+function minmax(newBoard,player) {
+  var availSpots = emptySpots(newBoard);
+    if(checkWinner(newBoard,huPLayer)) return {score:-10};
+    else if (checkWinner(newBoard,aiPlayer)) return{score:+10};
+    else if (availSpots.length === 0 ) return {score:0};
+    //an arrar to collect all the objects
+    var moves = [];
+    //loop through avail spots
+    for(var i in availSpots){
+        var move ={};
+            move.index = newBoard[availSpots[i]];
+            //set the emptty spot to the current player
+            newBoard[availSpots[i]] = player;
+            //collect the score resulted from calling minmax on the opponent of the player
+            if(player == aiPlayer){
+                var result = minmax(newBoard, huPLayer);
+                move.score = result.score;
+            }
+            else{
+                var result = minmax(newBoard, aiPlayer);
+                move.score = result.score;
+            }
+
+            //reset the spot to empty
+            newBoard[availSpots[i]] = move.index
+            //push the objest to the array
+            moves.push(move);
+        }
+            //if it is the computers's turn loop over the moves and chose the move with highest score
+            var bestMove;
+            if(player === aiPlayer){
+                var bestScore = -10000;
+                for(var i = 0; i < moves.length; i++){
+
+                    if(moves[i].score > bestScore){
+                        bestScore = moves[i].score;
+                        bestMove = i;
+                    }
+                }
+            }
+            else{
+                // else loop over the moves and choose the move with the lowest score
+                var bestScore = 10000;
+                    for(var i = 0; i < moves.length; i++){
+                        if(moves[i].score < bestScore){
+                            bestScore = moves[i].score;
+                            bestMove = i;
+                        }
+                    }
+                }
+          // return the chosen move (object) from the moves array
+          return moves[bestMove];
+    }
 //------------------------------------------------------------------------------
 $(document).ready(function(){
     $("button").on("click",function(){
         if(this.id=="x") {huPLayer="x",aiPlayer="o";startGame();}
         else if (this.id =="o"){huPLayer="o";aiPlayer="x";startGame();}
         else if (this.id =="replay") {startGame();}
-
+        else if (this.id == "reset"){
+            $(".choice").css("display","flex");
+            $(".win").css("display","none");
+            $(".draw").css("display","none");
+            $(".play").css("display","none");
+            $(".loose").css("display","none");
+        }
     });
 });
